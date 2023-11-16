@@ -1,0 +1,127 @@
+/* General Styles */
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: yellow;
+  color:black;
+}
+
+
+/* Header and Navigation */
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Main Sections */
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+/* Social Icons */
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Articles and Images */
+
+article {
+  margin-bottom: 20px;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Specific Sections */
+
+#about p,
+#projects p,
+#education p,
+#grades li,
+#certifications li,
+#hackathons p,
+#internships p,
+#extra-curriculars p {
+  margin-bottom: 5px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}

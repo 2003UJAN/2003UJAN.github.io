@@ -139,45 +139,41 @@ section {
   transform: translateY(-10px);
 }
 
-/* Skills */
-.skill-section {
-  margin: 20px 0;
-  width: 100%;
-  max-width: 1200px;
-  animation: fadeIn 2s ease-in-out;
+/* Skill Category */
+.skill-category {
+  margin-bottom: 40px;
 }
 
-.skills-container {
+/* Skill Cards Grid */
+.skills-cards {
   display: flex;
+  gap: 20px;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.skill-box {
-  display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 15px;
-  margin: 10px;
-  background-color: #333; /* Dark background similar to Extracurriculars */
-  color: #fff;
-  font-size: 1rem;
-  border-radius: 10px;
-  width: 250px; /* Same width as the Extracurricular boxes */
-  height: 80px; /* Similar height */
-  animation: fadeIn 2s ease-in-out;
+}
+
+/* Skill Item (Image + Text) */
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;  /* Adjust as needed */
   text-align: center;
-  box-sizing: border-box;
 }
 
-.skill-box i {
-  margin-right: 10px;
+/* Skill Logo */
+.skill-logo {
+  width: 80px;  /* Adjust size as needed */
+  height: 80px;  /* Adjust size as needed */
+  object-fit: contain;
+  margin-bottom: 10px;
 }
 
-.skill-box:hover {
-  transform: translateY(-10px);
-  transition: transform 0.3s ease;
+/* Skills Section Title */
+.skills-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 
 

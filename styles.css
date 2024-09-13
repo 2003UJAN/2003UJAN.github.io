@@ -140,7 +140,7 @@ section {
 }
 
 .skill-category {
-    background-color: white; /* Makes the boxes white */
+    background-color: black; /* Makes the boxes white */
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -148,12 +148,12 @@ section {
 }
 
 .skill-category h3 {
-    color: black; /* Text color for headers */
+    color: white; /* Text color for headers */
     font-weight: bold;
 }
 
 .skill-item p {
-    color: black; /* Text color for skill names */
+    color: white; /* Text color for skill names */
     text-align: center;
     margin-top: 10px;
 }

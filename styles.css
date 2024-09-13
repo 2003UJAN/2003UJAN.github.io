@@ -182,6 +182,11 @@ section {
     gap: 20px; /* Adjust gap between skill boxes */
 }
 
+.web-development-skills {
+    background-color: #000000; /* Black background color */
+    color: black; /* Black text color */
+}
+
 /* Contact Me */
 #contact {
   text-align: center;

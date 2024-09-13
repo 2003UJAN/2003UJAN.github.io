@@ -140,22 +140,26 @@ section {
 }
 
 .skill-category {
-    background-color: black; /* Makes the boxes white */
+    background-color: #3D3D3D; /* Dark background color */
+    color: white; /* White text */
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
     margin-bottom: 20px;
+    text-align: center; /* Center align text */
+    max-width: 300px; /* Optional: to make all boxes equal in width */
 }
 
 .skill-category h3 {
-    color: white; /* Text color for headers */
+    color: white; /* White text for headers */
     font-weight: bold;
+    margin-bottom: 15px;
 }
 
 .skill-item p {
-    color: white; /* Text color for skill names */
-    text-align: center;
+    color: white; /* White text for skill names */
     margin-top: 10px;
+    font-size: 16px;
 }
 
 .skill-logo {
@@ -163,7 +167,13 @@ section {
     height: 60px;
     object-fit: contain;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 10px; /* Center the logos */
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between; /* Add spacing between skill categories */
+    gap: 20px; /* Adjust gap between skill boxes */
 }
 
 

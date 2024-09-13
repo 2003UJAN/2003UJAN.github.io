@@ -139,41 +139,31 @@ section {
   transform: translateY(-10px);
 }
 
-/* Skill Category */
 .skill-category {
-  margin-bottom: 40px;
+    background-color: white; /* Makes the boxes white */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
-/* Skill Cards Grid */
-.skills-cards {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
+.skill-category h3 {
+    color: black; /* Text color for headers */
+    font-weight: bold;
 }
 
-/* Skill Item (Image + Text) */
-.skill-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100px;  /* Adjust as needed */
-  text-align: center;
+.skill-item p {
+    color: black; /* Text color for skill names */
+    text-align: center;
+    margin-top: 10px;
 }
 
-/* Skill Logo */
 .skill-logo {
-  width: 80px;  /* Adjust size as needed */
-  height: 80px;  /* Adjust size as needed */
-  object-fit: contain;
-  margin-bottom: 10px;
-}
-
-/* Skills Section Title */
-.skills-title {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 20px;
+    width: 60px; /* Adjust the size of logos */
+    height: 60px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
 }
 
 

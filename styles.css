@@ -140,42 +140,41 @@ section {
 }
 
 .skill-category {
-    background-color: #3D3D3D; /* Dark background color */
-    color: white; /* White text */
+    background-color: #000000; 
+    color: white;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     margin-bottom: 20px;
-    text-align: center; /* Center align text */
-    max-width: 300px; /* Optional: to make all boxes equal in width */
+    text-align: center; 
+    max-width: 300px; 
 }
 
 .skill-category h3 {
-    color: white; /* White text for headers */
+    color: white; 
     font-weight: bold;
     margin-bottom: 15px;
 }
 
 .skill-item p {
-    color: white; /* White text for skill names */
+    color: white; 
     margin-top: 10px;
     font-size: 16px;
 }
 
 .skill-logo {
-    width: 60px; /* Adjust the size of logos */
+    width: 60px; 
     height: 60px;
     object-fit: contain;
     display: block;
-    margin: 0 auto 10px; /* Center the logos */
+    margin: 0 auto 10px; 
 }
 
 .skills-container {
     display: flex;
-    justify-content: space-between; /* Add spacing between skill categories */
-    gap: 20px; /* Adjust gap between skill boxes */
+    justify-content: space-between; 
+    gap: 20px; 
 }
-
 
 /* Contact Me */
 #contact {

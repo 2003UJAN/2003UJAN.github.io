@@ -195,14 +195,22 @@ section {
     color: #333;
 }
 
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
 .project-box {
     background-color: #000000; /* Black background */
     color: white; /* White text */
     border-radius: 10px;
     padding: 20px;
-    margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project-box:hover {
@@ -219,9 +227,45 @@ section {
 .project-box p {
     font-size: 16px;
     line-height: 1.6;
-    margin-bottom: 0;
+    margin-bottom: 15px;
 }
 
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.project-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-link {
+    background-color: #ffcc00; /* Golden yellow buttons */
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.project-link:hover {
+    background-color: #ffaa00; /* Slightly darker on hover */
+}
+
+/* Optional: Responsive adjustments */
+@media (max-width: 768px) {
+    .project-box {
+        padding: 15px;
+    }
+
+    .project-link {
+        padding: 8px 15px;
+    }
+}
 
 /* Contact Me */
 #contact {

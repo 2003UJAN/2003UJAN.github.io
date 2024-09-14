@@ -218,53 +218,65 @@ section {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.project-box h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #ffcc00; /* Golden yellow color for project titles */
+.proj/* Projects Section */
+.projects-section {
+    padding: 50px 0;
+    background-color: #f8f8f8; /* Background color for the projects section */
 }
 
-.project-box p {
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 15px;
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
 }
 
-.project-image {
-    width: 100%;
-    height: auto;
+/* Project Box Style */
+.project-box {
+    background-color: #000000; /* Black background for each project */
+    color: white; /* White text inside the boxes */
     border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for project boxes */
+.project-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Project Title */
+.project-box h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffcc00; /* Optional: gold/yellow title */
+}
+
+/* Project Description */
+.project-box p {
+    font-size: 14px;
     margin-bottom: 10px;
 }
 
-.project-options {
+/* Flexbox to space out the options */
+.project-box-options {
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
-.project-link {
-    background-color: #ffcc00; /* Golden yellow buttons */
-    color: black;
-    padding: 10px 20px;
-    border-radius: 5px;
+/* Example of action buttons (optional: can add for more interaction) */
+.project-box-options a {
     text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
+    color: #ffcc00; /* Link color */
+    font-size: 14px;
+    transition: color 0.3s;
 }
 
-.project-link:hover {
-    background-color: #ffaa00; /* Slightly darker on hover */
-}
-
-/* Optional: Responsive adjustments */
-@media (max-width: 768px) {
-    .project-box {
-        padding: 15px;
-    }
-
-    .project-link {
-        padding: 8px 15px;
-    }
+.project-box-options a:hover {
+    color: #ffffff;
 }
 
 /* Contact Me */
